@@ -1,0 +1,98 @@
+ <style>
+	.header-banner {
+  background-color: #333;
+  color: #fff;
+  height: 150px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.header-banner h1 {
+  font-size: 36px;
+  margin-top: 40px;
+  text-transform: uppercase;
+  position: relative;
+  animation: slideIn 2s forwards;
+  opacity: 0;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+}
+
+.header-banner h1 span:first-child {
+  display: block;
+  font-size: 24px;
+}
+
+.header-banner h1 span:last-child {
+  display: block;
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+    color: #fff;
+  }
+}
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+      }
+      
+      h1 {
+        text-align: center;
+        color: #333;
+      }
+      
+      form {
+        max-width: 500px;
+        margin: 0 auto;
+        background-color: #ECE063;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 10px;
+        color: #333;
+      }
+      
+      input[type="text"],
+      input[type="email"],
+      input[type="password"],
+      input[type="tel"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin-bottom: 20px;
+        font-size: 16px;
+        color: #333;
+        box-sizing: border-box;
+      }
+      
+      input[type="submit"] {
+        background-color: #9FDBF9;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #ECE063;
+    </style>
